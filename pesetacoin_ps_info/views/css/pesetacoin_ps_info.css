@@ -1,4 +1,29 @@
 
+/* footer */
 .pesetacoin-title a {
     color: #232323;
 }
+
+
+/* top */
+#pesetacoin-top ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: left;
+}
+
+#pesetacoin-top ul li 
+{ 
+display: inline; 
+margin-right: 1em;
+}
+
+#pesetacoin-top ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+}
+
+#pesetacoin-top ul li a:hover { }
