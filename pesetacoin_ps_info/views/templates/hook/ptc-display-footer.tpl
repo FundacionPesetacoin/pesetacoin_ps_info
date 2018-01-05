@@ -3,10 +3,13 @@
   
   <h3 class="pesetacoin-title hidden-sm-down">
     <a class="text-uppercase" href="http://www.pesetacoin.info/" rel="nofollow" target="_blank">
-      {$my_module_name}
+      {if isset($my_module_name) && $my_module_name}
+			{$my_module_name}
+	  {else}
+			PesetaCoin
+      {/if}
     </a>
   </h3>
-  
   
   <ul>
 	<li>{l s='EUR' } : {$getPriceEur}</li>
