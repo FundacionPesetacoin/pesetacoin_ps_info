@@ -13,8 +13,8 @@ if (!defined('_PS_VERSION_')) exit;
  * @version    1.0
  *
  */
- 
-require('model/pesetacoin.php');
+
+include_once(_PS_MODULE_DIR_.'pesetacoin_ps_info/model/pesetacoin_info.php');
 
 class Pesetacoin_ps_info extends Module
 
@@ -206,7 +206,7 @@ class Pesetacoin_ps_info extends Module
 	*/
 	public function getValues4Template()
 	{
-		$obj_pesetacoin = new PesetaCoinFunciones();
+		$obj_pesetacoin = new PesetaCoinInfoFunciones();
 		$getPriceEur = $obj_pesetacoin->getPriceEur();
 		$getPriceUsd = $obj_pesetacoin->getPriceUsd();
 		$getPriceBtc = $obj_pesetacoin->getPriceBtc();
