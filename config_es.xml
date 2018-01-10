@@ -2,7 +2,7 @@
 <module>
     <name>pesetacoin_ps_info</name>
     <displayName><![CDATA[PesetaCoin Info]]></displayName>
-    <version><![CDATA[1.0.0]]></version>
+    <version><![CDATA[1.0]]></version>
     <description><![CDATA[Cambio de pesetacoin.]]></description>
     <author><![CDATA[marcos.trfn@gmail.com]]></author>
     <tab><![CDATA[front_office_features]]></tab>
